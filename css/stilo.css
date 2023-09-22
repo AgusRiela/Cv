@@ -1,0 +1,110 @@
+header {
+    background-color: rgb(87, 195, 201);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family:"Sofia", sans-serif;
+    height: 20vh;
+}
+.Foto {
+        height: 25vh;
+        width: 16vw ;  
+
+}
+.contenedorinfo{
+    width: 98vw;
+    height: 75vh;
+    display:flex;
+
+}
+.columna{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(218, 23, 121);
+    width: 25vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: row;
+    justify-content:center; 
+    align-content: space-between;
+    font-family: "Trirong", serif;
+}
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-content: center;
+    background-color:rgb(166, 255, 150);
+    height: 85vh;
+    width: 75vw;
+    align-content: center;
+    font-family: "Trirong", serif;
+
+}
+h2{
+  font-family: "Trirong", serif;
+    color:rgb(105, 7, 64);
+    font-size: 200%;
+}
+.Referencias{
+    background-color: rgb(255, 217, 183);
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    
+}
+button{
+    background-color:  rgb(218, 23, 121);
+    border-color: rgb(87, 195, 201);
+    border-width: 5px;
+    border-style:outset;
+    width: 40vw;
+    font-family: "Trirong", serif;
+}
+.redes {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;  
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 10vw;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ .contenido {
+    display: none;
+    position: absolute;
+    background-color:  rgb(218, 23, 121);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .contenido a {
+    color: #ebf5eb ;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .contenido a:hover {background-color: #44beae;}
+  
+  .dropdown:hover .contenido {
+    display: block;
+  }
+  
+  .dropdown:hover .redes {
+    background-color: #44beae;
+  }
+
